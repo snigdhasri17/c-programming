@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+	int n,even_sum=0,odd_sum=0,diff=0;
+	printf("enter n values");
+	scanf("%d",&n);
+	int i;
+	while(i<=n)
+	{
+		printf("%d",i);
+		if(i%2==1)
+		odd_sum=odd_sum+i;
+		else
+		even_sum=even_sum+i;
+		printf("%d",even_sum,odd_sum);
+		i++;
+		{
+		diff=even_sum-odd_sum;
+	}
+	}
+	printf("%d\n",odd_sum,even_sum);
+}
